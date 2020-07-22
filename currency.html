@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> ...</head>
+    <title>"currency calculator"</title>
+     <body>
+        <script>
+            var amount = 56789
+            var f_2000 = 2000
+            var f_500 = 500
+            var f_200 = 200
+            var f_100 = 100
+            var f_50 = 50
+            var f_20 = 20
+            var f_10 = 10
+            var f_5 = 5
+            var f_2 = 2
+            var f_1 = 1
+            console.log("the amount is")
+            console.log(amount)
+            console.log("total 2000 rupees notes are")
+            console.log(parseint(amount / f_2000))
+            console.log("amount left = ")
+            console.log(amount % f_2000)
+            console.log("total 500 rupees notes are") 
+            console.log(parseint((amount / f_2000) / f_500))
+            console.log("amount left = ") 
+            console.log((amount % f_2000) % f_500)
+            console.log("total 200 rupees notes are") 
+            console.log(parseint(((amount / f_2000) / f_500) / f_200))
+            console.log("amount left = ")
+            console.log(((amount % f_2000) % f_500) % f_200)
+            console.log("total 100 rupees  notes are") 
+            console.log(parseint((((amount / f_2000) / f_500) / f_200) / f_100))
+            console.log("amount left = ")
+            console.log((((amount % f_2000) % f_500) % f_200) % f_100) 
+            console.log("total 50 rupees notes are")
+            console.log(parseint(((((amount / f_2000) / f_500) / f_200) / f_100) / f_50))
+            console.log("amount left = ")
+            console.log(((((amount % f_2000) % f_500) % f_200) % f_100) % f_50)
+            console.log("total 20 rupees notes are")
+            console.log(parseint((((((amount / f_2000) / f_500) / f_200) / f_100) / f_50) / f_20))
+            console.log("amount left = ")
+            console.log((((((amount % f_2000) % f_500) % f_200) % f_100) % f_50) % f_20)
+            console.log("total 10 rupees notes or coins are")
+            console.log(parseint(((((((amount / f_2000) / f_500) / f_200) / f_100) / f_50) / f_20) / f_10))
+            console.log("amount left = ")
+            console.log(((((((amount % f_2000) % f_500) % f_200) % f_100) % f_50) % f_20) % f_10)
+            console.log("total 5  rupees notes or coins  are")
+            console.log(parseint((((((((amount / f_2000) / f_500) / f_200) / f_100) / f_50) / f_20) / f_10) / f_5))
+            console.log("amount left = ")
+            console.log((((((((amount % f_2000) % f_500) % f_200) % f_100) % f_50) % f_20) % f_10) % f_5)
+            console.log("total 2 rupees coins are")
+            console.log(parseint(((((((((amount / f_2000) / f_500) / f_200) / f_100) / f_50) / f_20) / f_10) / f_5) / f_2))
+            console.log("amount left = ")
+            console.log(((((((((amount % f_2000) % f_500) % f_200) % f_100) % f_50) % f_20) % f_10) % f_5) % f_2)
+            console.log("total 1 rupees coins are")
+            console.log(parseint((((((((((amount / f_2000) / f_500) / f_200) / f_100) / f_50) / f_20) / f_10) / f_5) / f_2) / f_1))
+            console.log("amount left = ")
+            console.log((((((((((amount % f_2000) % f_500) % f_200) % f_100) % f_50) % f_20) % f_10) % f_5) % f_2) % f_1)
+        </script>
+     </body>
+    </html>
